@@ -13,6 +13,13 @@ public class ArraySort {
 
   System.out.println("Enter numbers to sort: ");
 
+  for (int i = 0; i < count; i++) 
+        {
+            array1[i] = scan.nextInt();
+        }
+        scan.close();
+  }
+
   for (int i=0; i < arraySize; i++){
     for (int j = i+ 1; j < count; j++){
       //order change to "less than" for descending sort
@@ -26,7 +33,7 @@ public class ArraySort {
 
   System.out.println("The sorted array is: " );
   for (int i=0; i < arraySize; i++ ){
-    System.out.print(num[i]+ " ");
+    System.out.print(array1[i]+ " ");
   }
 
 }
