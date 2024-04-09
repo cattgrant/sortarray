@@ -23,8 +23,8 @@ public class ArraySort {
   scan.close();
 
   for (int i=0; i < arraySize; i++){
-    for (int j = i+ 1; j < count; j++){
-      if (array1[i] > array1[j]){
+    for (int j = i+ 1; j < arraySize; j++){
+      if (array1[i].compareTo(array1[j])>0){
         str = array1[i];
         array1[i] = array1[j];
         array1[j] = str; 
@@ -34,7 +34,7 @@ public class ArraySort {
 
   System.out.println("The sorted array is: " );
   for (int i=0; i < arraySize; i++ ){
-    System.out.print(array1[i]+ " ");
+    System.out.println(Arrays.toString(array1));
   }
 
 }
