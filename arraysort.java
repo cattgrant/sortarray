@@ -37,6 +37,5 @@ public class ArraySort {
     System.out.println(Arrays.toString(array1));
   }
 
-// This is a test comment
 }
 }
