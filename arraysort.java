@@ -12,6 +12,12 @@ public class ArraySort {
   int[] array1 = new int[arraySize];
 
   System.out.println("Enter numbers to sort: ");
+  for (int i = 0; i < arraySize; i++) 
+        {
+            array1[i] = scan.nextInt();
+        }
+  scan.close();
+   
 
   for (int i = 0; i < arraySize; i++) 
         {
@@ -35,5 +41,5 @@ public class ArraySort {
     System.out.print(array1[i]+ " ");
   }
 
-}
-}
+}}
+
