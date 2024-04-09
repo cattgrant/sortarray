@@ -19,7 +19,7 @@ public class ArraySort {
    
 
   for (int i=0; i < arraySize; i++){
-    for (int j = i+ 1; j < count; j++){
+    for (int j = i+ 1; j < arraySize; j++){
       if (array1[i] > array1[j]){
         num = array1[i];
         array1[i] = array1[j];
