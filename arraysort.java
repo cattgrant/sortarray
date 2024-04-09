@@ -1,3 +1,4 @@
+
 import java.util.Arrays;
 
 public class ArraySort {
@@ -18,9 +19,16 @@ public class ArraySort {
   scan.close();
    
 
+  for (int i = 0; i < arraySize; i++) 
+        {
+            array1[i] = scan.nextInt();
+        }
+        scan.close();
+
   for (int i=0; i < arraySize; i++){
     for (int j = i+ 1; j < arraySize; j++){
-      if (array1[i] > array1[j]){
+      //order change to "less than" for descending sort
+      if (array1[i] < array1[j]){
         num = array1[i];
         array1[i] = array1[j];
         array1[j] = num; 
