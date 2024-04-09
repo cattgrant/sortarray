@@ -13,15 +13,14 @@ public class ArraySort {
 
   System.out.println("Enter numbers to sort: ");
 
-  for (int i = 0; i < count; i++) 
+  for (int i = 0; i < arraySize; i++) 
         {
             array1[i] = scan.nextInt();
         }
         scan.close();
-  }
 
   for (int i=0; i < arraySize; i++){
-    for (int j = i+ 1; j < count; j++){
+    for (int j = i+ 1; j < arraySize; j++){
       //order change to "less than" for descending sort
       if (array1[i] < array1[j]){
         num = array1[i];
