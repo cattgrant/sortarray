@@ -36,6 +36,6 @@ public class ArraySort {
   for (int i=0; i < arraySize; i++ ){
     System.out.println(Arrays.toString(array1));
   }
-
+// This is a test comment
 }
 }
